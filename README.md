@@ -3,6 +3,14 @@ Files and documentation on how to use the [Shinobi Open-Source Video Management 
 
 **This documentation are meant for installing a Shinobi instance on a private network, and do not convert the security implication of exposing a Shinobi instance on the public web.**
 
+Table of Contents
+=================
+  * [Install Shinobi](#install-shinobi)
+  * [Access Shinobi and add Cameras](#access-shinobi-and-add-cameras)
+  * [Automatic Start and Stop of Video Recording through Shinobi HTTP API](#automatic-start-and-stop-of-video-recording-through-shinobi-http-api)
+    * [MATLAB](#matlab)
+  * [Access Recorded Videos](#access-recorded-video) 
+
 ## Install Shinobi
 
 First of all, select a machine that will act as a [NVR (Network Video Recorder)](https://en.wikipedia.org/wiki/Network_video_recorder). As Shinobi is quite an invasive software as it requires to install custom dependencies at the system level, it is extremly recommended to use a dedicated machine, and to start from a vanilla installation of Ubuntu 20.04. To install Ubuntu 20.04 on a new machine, please check the docs in https://ubuntu.com/tutorials/install-ubuntu-desktop .

@@ -130,4 +130,5 @@ The video recorded by Shinobi are then available directly from the Shinobi web u
 
 
 Furthermore, the video can be also accessed, downloaded and deleted via Shinobi HTTP API as well, see https://shinobi.video/docs/api#content-modifying-a-video-or-deleting-it . This can be useful to then automatically transfer videos to another location once the experiments are done, but this
-functionality is not provided in the helper libraries provided in this repo, as tipically the storage backend may vary from research lab to research lab. 
+functionality is not provided in the helper libraries provided in this repo, as tipically the storage backend may vary from research lab to research lab.
+However, the already provided helper libraries can be used to understand how to access the HTTP API from the selected language.
